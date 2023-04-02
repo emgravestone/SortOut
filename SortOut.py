@@ -16,7 +16,7 @@ class Document:
 
 class DocumentManager:
     def __init__(self, folder_path):
-        self.folder_path = os.path.join('C:/','Users','ethan','MyCode','SortOut','Documents',)
+        self.folder_path = os.path.join('C:/','Users','ethan','MyCode','SortOut','Documents',) //add your own path here
         self.documents = []
         self.load_documents()
 
